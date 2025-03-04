@@ -1,7 +1,26 @@
+:root{
+    --primary_font: 'Montserrat Alternates';
+    --secondary_font: 'Montserrat';
+
+    --black_color: black;
+    --primary_color: rgb(236, 46, 46);
+    --gray_color: grey;
+    --white_color: white;
+}
 .link_hover{
     transition: 0.2s all ease-in-out;
 }
 .link_hover:hover{
     transition: 0.2s all ease-in-out;
     font-weight: 600;
+}
+.primary_button{
+    border: none;
+    outline: none;
+    background-color: var(--primary_color);
+    padding: 2vh 2vw;
+    text-align: left;
+}
+.secondary_button{
+    background-color: var(--black_color);
 }

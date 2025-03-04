@@ -6,11 +6,12 @@
     <title>yield ('title', '')</title>
     <link rel="stylesheet" href="{{ asset('./resources/css/style.css') }}">
     <link rel="stylesheet" href="{{ asset('./resources/css/util.css') }}">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/remixicon@4.5.0/fonts/remixicon.css">
 </head>
 <body>
     <div class="main_container w_100">
         <nav class="navbar w_100 h_10vh padding_s15 flex justify_sb align_c">
-            <h1 class="primary_font">SASTA PATHAO</h1>
+            <h2 class="primary_font"><span style="color: var(--primary_color);">SASTA</span> PATHAO</h2>
 
             <div class="nav_links flex gap_s">
                 <a href="" class="primary_font primary_color "><h3 class="font_w400 link_hover">Services</h3></a>
