@@ -1,0 +1,7 @@
+.link_hover{
+    transition: 0.2s all ease-in-out;
+}
+.link_hover:hover{
+    transition: 0.2s all ease-in-out;
+    font-weight: 600;
+}
