@@ -1,5 +1,70 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat+Alternates:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
 *{
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+}
+
+:root{
+    --primary_font: 'Montserrat Alternates';
+    --black_color: black;
+}
+
+h1{
+    font-size: 2vw;
+}
+h3{
+    font-size: 1.2vw;
+}
+a{
+    text-decoration: none;
+}
+/* fonts */
+.primary_font{
+    font-family: var(--primary_font);
+}
+.primary_color{
+    color: var(--primary_font);
+}
+/* widths */
+.w_100{
+    width: 100%;
+}
+/* heights */
+.h_10vh{
+    height: 10vh;
+}
+
+/* paddings */
+.padding_s15{
+    padding-right: 15vw;
+    padding-left: 15vw;
+}
+
+/* flex */
+.flex{
+    display: flex;
+}
+
+/* justify */
+.justify_sb{
+    justify-content: space-between;
+}
+
+/* aligns */
+.align_c{
+    align-items: center;
+}
+
+/* gaps */
+.gap_xs{
+    gap: 1vw;
+}
+.gap_s{
+    gap: 2vw;
+}
+
+/* font_weights */
+.font_w400{
+    font-weight: 400;
 }
