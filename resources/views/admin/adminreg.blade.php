@@ -10,12 +10,19 @@
         <br>
 <label for="password">Password</label>
 <input type="password" id="password" name="password" required>
+
 <br>
 
-<input type="submit" id="submit" > 
+<label for="role">Select Role</label>
+    <select id="role" name="role" required>
+        <option value="admin">Admin</option>
+        <option value="superadmin">Super Admin</option>
+    </select>
+    <br>
 
 
 
+    <input type="submit" id="submit" > 
 </form>
 
 @endsection
