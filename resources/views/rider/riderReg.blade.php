@@ -7,11 +7,11 @@
         <h2 class="primary_font mbottom_s">Rider Registration</h2>
 
         <div class="input_row w_100 h_fc flex justify_sb gap_xs primary_font mtop_s">
-            <div class="input_holder w_100 flex_cl gap_xs">
+            <div class="input_holder mtop_s w_100 flex_cl gap_xs">
                 <h4 clas="gray_cl">Full Name</h4>
                 <input type="text" id="fullName" name="fullName" required placeholder="Enter Your Full Name" class="input_field">
             </div>
-            <div class="input_holder w_100 flex_cl gap_xs">
+            <div class="input_holder mtop_s w_100 flex_cl gap_xs">
                 <h4 clas="gray_cl">Vehicle Type</h4>
                 <select type="text" id="fullName" name="fullName" required placeholder="Enter Your Full Name" class="input_field">
                     <option value="bike">Bike</option>
@@ -20,31 +20,31 @@
             </div>
         </div>
         <div class="input_row w_100 h_fc flex justify_sb gap_xs primary_font mtop_s">
-            <div class="input_holder w_100 flex_cl gap_xs">
+            <div class="input_holder mtop_s w_100 flex_cl gap_xs">
                 <h4 clas="gray_cl">Vehicle Number</h4>
                 <input type="text" id="fullName" name="fullName" required placeholder="Enter Your Vehicle Number" class="input_field">
             </div>
-            <div class="input_holder w_100 flex_cl gap_xs">
+            <div class="input_holder mtop_s w_100 flex_cl gap_xs">
                 <h4 clas="gray_cl">Phone Number</h4>
                 <input type="number" id="fullName" name="fullName" required placeholder="Enter Your Contact Number" class="input_field">
             </div>
         </div>
         <div class="input_row w_100 h_fc flex justify_sb gap_xs primary_font mtop_s">
-            <div class="input_holder w_100 flex_cl gap_xs">
+            <div class="input_holder mtop_s w_100 flex_cl gap_xs">
                 <h4 clas="gray_cl">Email Address</h4>
                 <input type="email" id="fullName" name="fullName" required placeholder="Enter Your Email Address" class="input_field">
             </div>
-            <div class="input_holder w_100 flex_cl gap_xs">
+            <div class="input_holder mtop_s w_100 flex_cl gap_xs">
                 <h4 clas="gray_cl">Profile Picture</h4>
                 <input type="file" id="fullName" name="fullName" required placeholder="Enter Your Contact Number" class="input_field file_field">
             </div>
         </div>
         <div class="input_row w_100 h_fc flex justify_sb gap_xs primary_font mtop_s">
-            <div class="input_holder w_100 flex_cl gap_xs">
+            <div class="input_holder mtop_s w_100 flex_cl gap_xs">
                 <h4 clas="gray_cl">Vehicle Registration</h4>
                 <input type="file" id="fullName" name="fullName" required class="input_field file_field">
             </div>
-            <div class="input_holder w_100 flex_cl gap_xs">
+            <div class="input_holder mtop_s w_100 flex_cl gap_xs">
                 <h4 clas="gray_cl">Driver License</h4>
                 <input type="file" id="fullName" name="fullName" required class="input_field file_field">
             </div>
