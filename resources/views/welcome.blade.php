@@ -9,7 +9,7 @@
         
         <div class="button_holder w_100 flex_cl gap_xs">
         <button class="primary_button w_100"><a href="/rider_registration"><h2 class="black_cl primary_font">Become a Rider <i class="ri-arrow-right-line"></i></h2></a></button>
-        <button class="primary_button secondary_button w_100"><a href="/rider_registration"><h2 class="black_cl primary_font">Book a Ride <i class="ri-navigation-fill"></i></h2></a></button>
+        <button class="primary_button secondary_button w_100"><a href="/signup"><h2 class="black_cl primary_font">Book a Ride <i class="ri-navigation-fill"></i></h2></a></button>
         </div>
     </div>
     <div class="image_holder w_100 h_100 flex_c">

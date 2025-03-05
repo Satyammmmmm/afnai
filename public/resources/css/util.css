@@ -64,6 +64,10 @@ a{
     padding-right: 15vw;
     padding-left: 15vw;
 }
+.padding_vs{
+    padding-top: 7vh;
+    padding-bottom: 7vh;
+}
 
 /* flex */
 .flex{
@@ -103,4 +107,17 @@ a{
 /* font_weights */
 .font_w400{
     font-weight: 400;
+}
+
+/* margins */
+.mtop_s{
+    margin-top: 2vh;
+}
+.mbottom_s{
+    margin-bottom: 2vh;
+}
+
+/* text_aligns */
+.text_ac{
+    text-align: center;
 }
