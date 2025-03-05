@@ -3,7 +3,7 @@
 
 @section('content')
 <section class="rider_registration w_100 h_fc padding_s15 padding_vs flex_c gap_ss">
-    <form action="#" class="rider_reg w_100 h_100 flex_cl">
+    <form action="#" class="form_card w_100 h_100 flex_cl">
         <h2 class="primary_font mbottom_s">Rider Registration</h2>
 
         <div class="input_row w_100 h_fc flex justify_sb gap_xs primary_font mtop_s">
@@ -49,7 +49,7 @@
                 <input type="file" id="fullName" name="fullName" required class="input_field file_field">
             </div>
         </div>
-        <button type="submit" class="primary_button w_100 mtop_s text_ac"><h3 class="black_cl primary_font">Submit</h3></button>
+        <button type="submit" class="primary_button w_100 mtop_s text_ac"><h3 class="black_cl primary_font">Register</h3></button>
     </form>
     <div class="image_holder_rider w_100 h_100 flex_c">
         <img src="{{ asset('./resources/images/hero.png') }}" alt="Bike" class="bike_png w_100">

@@ -14,22 +14,24 @@ class UserAuth extends Controller
     }
 
     public function register(Request $request)
-    {
-        $request->validate([
-            'fullname' => 'required',
-            'phone' => 'required|unique:users_signup',
-            'citizenship_number' => 'required|unique:users_signup',
-            'password' => 'required|min:6|confirmed',
-        ]);
+{
+    $request->validate([
+        'fullname' => 'required',
+        'phone' => 'required|unique:users_signup',
+        'citizenship_number' => 'required|unique:users_signup',
+        'password' => 'required|min:6|confirmed',
+    ]);
 
-        $user = User_signup::create([
-            'fullname' => $request->fullname,
-            'phone' => $request->phone,
-            'citizenship_number' => $request->citizenship_number,
-            'password' => Hash::make($request->password),
-        ]);
+    $user = User_signup::create([
+        'fullname' => $request->fullname,
+        'phone' => $request->phone,
+        'citizenship_number' => $request->citizenship_number,
+        'password' => Hash::make($request->password),
+    ]);
 
-        return redirect('/signup')->with('success', 'User registered successfully!');
-    }
+    // Redirect to user dashboard after successful registration
+    return redirect('/user_dashboard');
+}
+
 }
 

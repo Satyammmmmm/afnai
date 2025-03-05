@@ -25,6 +25,9 @@ h2{
 h3{
     font-size: 1.2vw;
 }
+h4, .input_field{
+    font-size: 1vw;
+}
 a{
     text-decoration: none;
 }
@@ -39,6 +42,9 @@ a{
     color: var(--primary_font);
 }
 .black_cl{
+    color: var(--black_color);
+}
+.white_cl{
     color: var(--white_color);
 }
 .gray_cl{
@@ -120,4 +126,23 @@ a{
 /* text_aligns */
 .text_ac{
     text-align: center;
+}
+
+/* images */
+.img_cover{
+    object-fit: cover;
+    object-position: center;
+}
+
+/* overflow */
+.overflow_h{
+    overflow: hidden;
+}
+
+/* positions */
+.position_r{
+    position: relative;
+}
+.position_a{
+    position: absolute;
 }
